@@ -1,3 +1,7 @@
+# Author's Note
+
+This project may or may not be in a broken state. You may have build or compilation issues. This note is just a masquerade for a disclaimer to tell you, dear reader, that I cannot help you should you run into problems. It is up to you to trundle through the Visual Studio error messages and find your way to both compilation and nirvana. If you fail to perservere, may Lord Umbasa have mercy on your soul.
+
 # ScatterBrain Suite
 
 ScatterBrain is a shell code runner with a variety of execution and elevation options. Given unencoded shellcode, it will then be encoded with the XOR key `SecretKey` (found in `Cryptor/Program.cs` and `ScatterBrain/Headers/RawData.h`) using the Cryptor binary. Cryptor.exe generates an `encrypted.bin`, which can be copied into `ScatterBrain/Headers/RawData.h`. You can then build ScatterBrain as a DLL which can be leveraged in one of the templates. Additionally, this will build the .NET Profiler UAC Bypass to use in your operations.
