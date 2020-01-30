@@ -274,7 +274,6 @@ __pycache__/
 
 ScatterBrain/RawData.h
 DWELLS/data1.bin
-**/SharpWMI
 **/*.dll
 *.dll
 **/*.exe
